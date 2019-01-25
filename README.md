@@ -1,8 +1,11 @@
-# Check_cosine_annealing_lr
+# Check cosine annealing lr on Pytorch
   
-I checked Torch implementation of the learning rate scheduler.  
+I checked the PyTorch implementation of the learning rate scheduler with some learning rate decay conditions.  
 torch.optim.lr_scheduler.CosineAnnealingLR()  
 https://pytorch.org/docs/stable/optim.html#torch.optim.lr_scheduler.CosineAnnealingLR  
+Which is the implementation of this paper.  
+SGDR: Stochastic Gradient Descent with Warm Restarts  
+https://arxiv.org/abs/1608.03983  
 
 ## Environment
   
