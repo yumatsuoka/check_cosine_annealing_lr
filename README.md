@@ -35,7 +35,7 @@ def check_annealing(model, optimizer, param_dict):
             optimizer.step()
 
             scheduler.step()
-            if optimizer.param_groups[0]['lr'] == 0:
+            if optimizer.param_groups[0]['lr'] == param_dict['eta_min']:
                 if param_dict['whole_decay']:
                     annealed_lr = param_dict['lr'] * (1 + math.cos(
                         math.pi * now_itr / (param_dict['epochs'] * param_dict['steps']) )) / 2
