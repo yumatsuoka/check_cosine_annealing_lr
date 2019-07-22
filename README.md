@@ -87,4 +87,4 @@ show_graph(t01_tmult2_out, epochs, steps, t01_tmult2['out_name'])
 ```
 
 ## Result
-![ZZ](t_0-200-t_multi-2.png?raw=true "X")
+![ZZ](cos_anni.png?raw=true "X")
